@@ -15,7 +15,7 @@ This is a modern and user-friendly loan calculator designed to help users estima
 
 ## Screenshots
 
-![Screenshot 1]("Sc\Screen_Shot.png")
+![Screenshot 1](https://raw.githubusercontent.com/kourdroid/loan/main/Sc/Screen_Shot.png)
 
 ## Usage
 
