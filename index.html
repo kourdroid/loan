@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Loan Calculator</title>
 </head>
-<body class="bg-indigo-600 w-full ">
+<body class="bg-indigo-600 w-full overflow-x-hidden ">
     <h1 class="font-black text-4xl text-white py-5">Loan Calculator</h1>
     <section class="container mx-auto gap-5 flex flex-col px-5 xl:flex xl:flex-row justify-between items-start h-full  w-full">
         <!-- Input -->
@@ -61,14 +61,14 @@
         <div class="bg-white w-full h-3/4 p-5 rounded-xl shadow-2xl flex flex-col justify-center">
             <div class="bg-white w-full rounded-xl p-10 flex">
                 <div class="flex flex-col justify-center items-center">
-                    <p class="font-medium text-3xl text-left text-indigo-300 p-2 px-8 flex items-center justify-between w-full">Taux:
-                        <input type="text" class="outline-none flex justify-end  bg-indigo-50  rounded-xl ml-2 text-indigo-600 pl-2 font-bold w-1/2 h-14" id="taxValue" value="5">
+                    <p class="font-medium text-3xl text-left text-indigo-300 p-2 px-8 flex flex-col items-start md:flex md:flex-row justify-between w-full">Taux:
+                        <input type="text" class="outline-none flex justify-end  bg-indigo-50  rounded-xl ml-2 text-indigo-600 pl-2 font-bold w-full md:w-2/3 h-14" id="taxValue" value="5">
                     </p>
-                    <p class="font-medium text-3xl text-left text-indigo-300 p-2 px-8 flex items-center justify-between w-full">Montant:
-                        <input type="text" class="outline-none flex justify-end  bg-indigo-50  rounded-xl ml-2 text-indigo-600 pl-2 font-bold w-1/2 h-14" id="loanValue" value="5000">
+                    <p class="font-medium text-3xl text-left text-indigo-300 p-2 px-8 flex flex-col items-start md:flex md:flex-row justify-between w-full">Montant:
+                        <input type="text" class="outline-none flex justify-end  bg-indigo-50  rounded-xl ml-2 text-indigo-600 pl-2 font-bold w-full md:w-2/3 h-14" id="loanValue" value="5000">
                     </p>
-                    <p class="font-medium text-3xl text-left text-indigo-300 p-2 px-8 flex items-center justify-between w-full">Durée:
-                        <input type="text" class="outline-none flex justify-end  bg-indigo-50  rounded-xl ml-2 text-indigo-600 pl-2 font-bold w-1/2 h-14" id="durValue" value="6">
+                    <p class="font-medium text-3xl text-left text-indigo-300 p-2 px-8 flex flex-col items-start md:flex md:flex-row justify-between w-full">Durée:
+                        <input type="text" class="outline-none flex justify-end  bg-indigo-50  rounded-xl ml-2 text-indigo-600 pl-2 font-bold w-full md:w-2/3 h-14" id="durValue" value="6">
                     </p>
                 </div>
                 <button onclick="calculateTotalAmount()"
