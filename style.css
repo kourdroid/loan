@@ -29,6 +29,7 @@ body {
     transform: translateX(-70%) scale(0);
     font-weight: 500;
     top: -50px;
+
     line-height: 45px;
     z-index: 2;
     color: #fff;
