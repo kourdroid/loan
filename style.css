@@ -45,7 +45,7 @@ body {
     content: '';
     height: 100%;
     width: 100%;
-    background: #664AFF;
+    background: black;
     border: 3px solid #fff;
     z-index: -1;
     left: 50%;
@@ -83,8 +83,8 @@ body {
     height: 20px;
     background: red;
     border-radius: 50%;
-    background: #664AFF;
-    border: 1px solid #664AFF;
+    background: black;
+    border: 1px solid black;
     cursor: pointer;
 }
 
@@ -94,11 +94,11 @@ body {
     height: 20px;
     background: red;
     border-radius: 50%;
-    background: #664AFF;
-    border: 1px solid #664AFF;
+    background: black;
+    border: 1px solid black;
     cursor: pointer;
 }
 
 .range input::-moz-range-progress {
-    background: #664AFF; 
+    background: black; 
 }
